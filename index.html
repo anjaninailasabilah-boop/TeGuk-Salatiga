@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Teguk Salatiga - tumbler stainless untuk menemani aktivitas harianmu.">
+  <title>Teguk Salatiga | Tumbler Stainless</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="announcement">FREE CHECK BEFORE SHIPPING · TEGUK SALATIGA</div>
+  <header>
+    <nav class="nav">
+      <a class="brand" href="#home">
+        <span class="brand-mark">T</span>
+        <span>TEGUK <small>SALATIGA</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="#home">Beranda</a><a href="#produk">Produk</a><a href="#tentang">Tentang Kami</a><a href="#kebijakan">Informasi</a><a href="#kontak">Kontak</a>
+      </div>
+      <button class="cart-button" onclick="toggleCart()">Keranjang <span id="cart-count">0</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div>
+        <div class="eyebrow">Your daily hydration companion</div>
+        <h1>Temani harimu,<br><em>setiap tegukan.</em></h1>
+        <p class="hero-copy">Botol dan tumbler stainless untuk menemani aktivitas kuliah, kerja, dan perjalananmu. Pilih ukuran yang tepat, nikmati hari dengan lebih praktis.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#produk">Belanja Sekarang ↗</a>
+          <a class="btn btn-outline" href="#tentang">Kenali Teguk</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Foto botol dan tumbler stainless">
+        <img src="images/hero-set.jpg" alt="Botol dan tumbler stainless Cuculemon warna navy">
+        <div class="hero-note"><strong>1000 ML</strong><br><span style="color:#737b73">Ready for your day</span></div>
+      </div>
+    </section>
+
+    <section class="section benefits">
+      <div class="section-inner">
+        <div class="section-heading">
+          <div class="eyebrow">Why choose us</div>
+          <h2>Lebih tenang saat berbelanja</h2>
+          <p>Kami memperhatikan detail sebelum produk sampai ke tanganmu.</p>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit"><div class="benefit-icon">✓</div><h3>Dicek sebelum dikirim</h3><p>Setiap produk diperiksa dan dicocokkan dengan pesanan sebelum proses packing.</p></article>
+          <article class="benefit"><div class="benefit-icon">♧</div><h3>Spesifikasi jelas</h3><p>Informasi kapasitas dan bahan ditampilkan agar kamu bisa memilih dengan tepat.</p></article>
+          <article class="benefit"><div class="benefit-icon">♡</div><h3>Packing lebih aman</h3><p>Produk dikemas dengan rapi untuk membantu mengurangi risiko kerusakan selama pengiriman.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="produk">
+      <div class="section-inner">
+        <div class="section-heading">
+          <div class="eyebrow">Our collection</div>
+          <h2>Temukan tumbler pilihanmu</h2>
+          <p>Satu teman minum untuk berbagai aktivitas.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-art"><span class="tag">UKURAN KECIL</span><img src="images/produk-500ml.jpg" alt="Botol stainless Cuculemon 500 ml dalam tiga warna" loading="lazy"></div>
+            <div class="product-info">
+              <h3>Botol Stainless Cuculemon 500 ml</h3>
+              <p class="desc">Botol ramping berkapasitas 500 ml yang ringan dibawa ke kampus, kantor, atau olahraga. Tersedia dalam tiga warna lembut dengan tutup flip dan sedotan.</p>
+              <ul class="spec"><li>Kapasitas: 500 ml</li><li>Bahan: stainless steel (jenis mengikuti keterangan pemasok)</li><li>Tutup flip dengan sedotan, sesuai foto</li><li>Status: ready stock</li></ul>
+              <div class="color-row"><label for="warna-500">Warna</label><select id="warna-500"><option>Pink</option><option>Lavender</option><option>Navy</option></select></div>
+              <div class="product-bottom"><span class="price">Rp59.000</span><button class="add-button" onclick="addToCart('Botol Stainless Cuculemon 500 ml',59000,'warna-500')">+ Keranjang</button></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-art"><span class="tag">MUDAH DIBERSIHKAN</span><img src="images/produk-900ml.jpg" alt="Tumbler stainless Cuculemon 900 ml dengan tutup dan sedotan yang bisa dilepas" loading="lazy"></div>
+            <div class="product-info">
+              <h3>Tumbler Stainless Cuculemon 900 ml</h3>
+              <p class="desc">Tumbler berkapasitas besar dengan tutup dan sedotan yang dapat dilepas, sehingga mudah dicuci. Cocok untuk aktivitas seharian di dalam maupun luar ruangan.</p>
+              <ul class="spec"><li>Kapasitas: 900 ml</li><li>Bahan: stainless steel (jenis mengikuti keterangan pemasok)</li><li>Tutup dan sedotan dapat dilepas, sesuai foto</li><li>Status: ready stock</li></ul>
+              <div class="color-row"><label for="warna-900">Warna</label><select id="warna-900"><option>Biru muda</option></select></div>
+              <div class="product-bottom"><span class="price">Rp105.000</span><button class="add-button" onclick="addToCart('Tumbler Stainless Cuculemon 900 ml',105000,'warna-900')">+ Keranjang</button></div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-art"><span class="tag">KAPASITAS BESAR</span><img src="images/produk-1000ml.jpg" alt="Botol stainless Cuculemon 1000 ml warna pink dan navy" loading="lazy"></div>
+            <div class="product-info">
+              <h3>Botol Stainless Cuculemon 1000 ml</h3>
+              <p class="desc">Botol ramping berkapasitas 1 liter untuk kamu yang malas isi ulang. Pas untuk seharian kuliah, kerja, atau perjalanan, dengan tutup flip yang praktis.</p>
+              <ul class="spec"><li>Kapasitas: 1000 ml (1 liter)</li><li>Bahan: stainless steel (jenis mengikuti keterangan pemasok)</li><li>Tutup flip, model botol ramping</li><li>Status: ready stock</li></ul>
+              <div class="color-row"><label for="warna-1000">Warna</label><select id="warna-1000"><option>Pink</option><option>Navy</option></select></div>
+              <div class="product-bottom"><span class="price">Rp115.000</span><button class="add-button" onclick="addToCart('Botol Stainless Cuculemon 1000 ml',115000,'warna-1000')">+ Keranjang</button></div>
+            </div>
+          </article>
+        </div>
+        <p style="text-align:center;color:var(--muted);font-size:10px;margin-top:18px;">*Harga adalah harga contoh untuk tugas dan disesuaikan dengan ukuran. Foto produk berasal dari dokumentasi merek Cuculemon untuk keperluan tugas. Teguk Salatiga adalah reseller, bukan toko resmi Cuculemon.</p>
+      </div>
+    </section>
+
+    <section class="section about" id="tentang">
+      <div class="section-inner about-grid">
+        <div class="about-art"><img src="images/about-pink.jpg" alt="Tumbler stainless Cuculemon warna pink motif pita" loading="lazy"></div>
+        <div>
+          <div class="eyebrow">About Teguk</div>
+          <h2>Hal sederhana untuk menemani aktivitasmu.</h2>
+          <p><strong>Teguk Salatiga</strong> merupakan toko online yang menyediakan tumbler stainless untuk mahasiswa, anak kos, pekerja muda, dan siapa saja yang membutuhkan botol minum praktis.</p>
+          <p>Kami berkomitmen memberikan informasi produk yang jelas, mencocokkan pesanan, serta melakukan pengecekan sebelum produk dikirim.</p>
+          <p>Produk yang tersedia saat ini bermerek Cuculemon. Teguk Salatiga adalah <strong>reseller</strong>, bukan toko resmi Cuculemon.</p>
+          <div class="trust-row"><span>✓ Detail produk jelas</span><span>✓ Quality check</span><span>✓ Layanan responsif</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-inner">
+        <div class="section-heading"><div class="eyebrow">Customer stories</div><h2>What they say</h2><p>Contoh tampilan ulasan pelanggan.</p></div>
+        <div class="review-grid">
+          <article class="review"><div class="stars">★★★★★</div><p>“Ukurannya pas untuk dibawa ke kampus, warnanya lucu, dan kemasannya rapi. Informasi produknya jelas.”</p><small>— Aulia Rahmawati, mahasiswi Salatiga (contoh ulasan)</small></article>
+          <article class="review"><div class="stars">★★★★★</div><p>“Admin ramah dan pesanan dicek dulu sebelum dikirim. Tutup dan sedotannya mudah dilepas untuk dicuci.”</p><small>— Rizky Pratama, mahasiswa UIN Salatiga (contoh ulasan)</small></article>
+          <article class="review"><div class="stars">★★★★★</div><p>“Kapasitas 1 liter cukup untuk seharian bekerja. Pengirimannya cepat dan packing-nya aman.”</p><small>— Dewi Susanti, karyawan, Ungaran (contoh ulasan)</small></article>
+        </div>
+        <div class="review-note">Catatan: seluruh ulasan dan nama pembeli di atas adalah contoh/dummy untuk demonstrasi website, bukan testimoni pelanggan asli.</div>
+      </div>
+    </section>
+
+    <section class="section" id="kebijakan" style="background:#fff">
+      <div class="section-inner">
+        <div class="section-heading"><div class="eyebrow">Shop information</div><h2>Informasi sebelum belanja</h2><p>Yuk, baca ketentuan toko agar transaksi lebih nyaman.</p></div>
+        <div class="faq-grid">
+          <details open><summary>Pengiriman</summary><p>Pesanan diproses setelah detail produk dan alamat dikonfirmasi. Pengiriman menggunakan jasa ekspedisi yang disepakati bersama pembeli.</p></details>
+          <details><summary>Pengecekan produk</summary><p>Produk diperiksa dan dicocokkan dengan pesanan sebelum dikemas. Dokumentasi packing dapat diberikan bila diperlukan.</p></details>
+          <details><summary>Retur dan refund</summary><p>Jika barang rusak atau tidak sesuai pesanan, hubungi admin dengan menyertakan video unboxing sebagai bukti. Pengajuan akan ditinjau terlebih dahulu.</p></details>
+          <details><summary>Pembayaran</summary><p>Pembayaran dilakukan setelah konfirmasi admin melalui metode yang disepakati, seperti transfer bank, QRIS, atau dompet digital. Jangan transfer ke rekening yang tidak dikonfirmasi admin.</p></details>
+          <details><summary>Privasi pelanggan</summary><p>Informasi pelanggan seperti nama, nomor telepon, dan alamat hanya digunakan untuk keperluan pemrosesan pesanan.</p></details>
+          <details><summary>Stok dan variasi</summary><p>Ketersediaan warna dan produk akan dikonfirmasi admin sebelum pembayaran. Foto produk berasal dari dokumentasi merek Cuculemon untuk keperluan tugas.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="kontak">
+      <div class="section-inner">
+        <div class="section-heading"><div class="eyebrow">Get in touch</div><h2>Let's talk, let's Teguk.</h2><p>Ada pertanyaan tentang produk? Hubungi admin kami.</p></div>
+        <div class="contact-grid">
+          <div class="contact-card"><h3>Teguk Salatiga</h3><p>📍 Salatiga, Jawa Tengah</p><p>✉️ <a href="mailto:TeGuk.Salatiga@gmail.com">TeGuk.Salatiga@gmail.com</a></p><p>📱 WhatsApp: <a href="https://wa.me/6288224246481" target="_blank" rel="noopener">0882-2424-6481</a></p><p>📷 Instagram: <a href="https://instagram.com/TeGuk.Salatiga" target="_blank" rel="noopener">@TeGuk.Salatiga</a></p><p>🕗 Layanan: Senin–Sabtu, 08.00–20.00 WIB</p><p>🧾 NIB: 0000000000000 <em>(contoh, usaha dalam rancangan)</em></p></div>
+          <div class="contact-card"><h3>Butuh bantuan?</h3><p>Admin siap membantu menjawab pertanyaan mengenai spesifikasi, stok, pembayaran, dan pengiriman.</p><a class="btn" href="#produk">Lihat Produk ↗</a></div>
+        </div>
+        <p style="text-align:center;color:#c5d1c8;font-size:10px;margin-top:22px;">Alamat lengkap dan NIB pada halaman ini adalah contoh untuk keperluan tugas.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="footer-brand">TEGUK SALATIGA</div><p>Temani harimu, setiap tegukan.</p><p style="margin-top:8px">© 2026 Teguk Salatiga. Website demonstrasi untuk tugas E-Commerce Lab. Foto produk: dokumentasi merek Cuculemon.</p></footer>
+
+  <div class="cart-panel" id="cart-panel" onclick="if(event.target===this)toggleCart()">
+    <div class="cart-content">
+      <div class="cart-head"><h2>Keranjangmu</h2><button class="close-cart" onclick="toggleCart()" aria-label="Tutup">×</button></div>
+      <div id="cart-items"><p class="empty">Keranjang masih kosong.</p></div>
+      <div class="cart-total"><span>Total</span><span id="cart-total">Rp0</span></div>
+      <button class="checkout" onclick="checkoutWhatsApp()">Pesan via WhatsApp</button>
+      <p style="font-size:10px;color:var(--muted);margin-top:12px">Pesanan akan dikonfirmasi kembali oleh admin. Hubungkan nomor WhatsApp aktif pada kode JavaScript.</p>
+    </div>
+  </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
